@@ -1,0 +1,68 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+
+# Dart
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+*.kernel
+*.swp
+.pub/
+.buildlog
+.pub-cache/
+*.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Android related
+*/android/*/build/
+*/android/*/local.properties
+*/android/*/.gradle/
+*/android/*/.idea/
+*/android/*/flutter/build/
+*/android/*/Flutter/build/
+*/android//Flutter/app/.iml
+*/android/*/local.properties
+*/android/*/app/src/debug/
+*/android/*/app/src/profile/
+*/android/*/app/src/main/kotlin/
+*/android/*/app/src/main/res/values-night/
+*/android/*/app/src/main/res/raw/
+*/android/*/gradle.properties
+
+# iOS related
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/engine/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/engine/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Runner.xcodeproj/project.xcworkspace/
+**/ios/Runner.xcodeproj/xcuserdata/
+**/ios/Runner.xcworkspace/
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Runner/Assets.xcassets/
+**/ios/Flutter/flutter_export_environment.sh
+
+# Packages
+packages
+
+# Miscellaneous
+.DS_Store
+*.log
+*.vscode/
+.idea/
+*.iml
+*.hive
