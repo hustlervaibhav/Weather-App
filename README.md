@@ -1,7 +1,12 @@
 # the_weather_app
 
 A new Flutter project.
-
+This project provides info. of different weather location.
+Concepts covered in the project are =>
+Provider.
+API Calling( Openweathermap api is used ).
+open_street_map_search_and_pick package. 
+Basic Ui features.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
