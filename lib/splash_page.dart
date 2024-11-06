@@ -3,6 +3,7 @@ import 'package:the_weather_app/home_page.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
+
   @override
   _SplashScreenState createState() =>
       _SplashScreenState();
@@ -22,7 +23,7 @@ class _SplashScreenState
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-          builder: (context) => HomePage()),
+          builder: (context) => const HomePage()),
     );
   }
 
@@ -30,7 +31,7 @@ class _SplashScreenState
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor:
-          Color.fromARGB(255, 127, 225, 255),
+          Color.fromARGB(255, 0, 41, 53),
       body: Center(
         child: Column(
           mainAxisAlignment:

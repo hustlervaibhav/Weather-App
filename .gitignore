@@ -1,68 +1,100 @@
-# Flutter/Dart/Pub related
-**/doc/api/
+android/
+ios/
+web/
+Assets/
+assets/
+windows/
+linux/
+macos/
+.dart_tool/
 
-# Dart
-*.dart.js
-*.info.json
-*.js
-*.js_
-*.js.deps
-*.js.map
-*.kernel
-*.swp
-.pub/
-.buildlog
-.pub-cache/
-*.dart_tool/
+# Flutter specific
 .flutter-plugins
 .flutter-plugins-dependencies
+.flutter-versions
+.dart_tool/
 .packages
-pubspec.lock
+.pulm
+build/
+flutter_*.png
 
-# Android related
-*/android/*/build/
-*/android/*/local.properties
-*/android/*/.gradle/
-*/android/*/.idea/
-*/android/*/flutter/build/
-*/android/*/Flutter/build/
-*/android//Flutter/app/.iml
-*/android/*/local.properties
-*/android/*/app/src/debug/
-*/android/*/app/src/profile/
-*/android/*/app/src/main/kotlin/
-*/android/*/app/src/main/res/values-night/
-*/android/*/app/src/main/res/raw/
-*/android/*/gradle.properties
-
-# iOS related
-**/ios/Flutter/App.framework
-**/ios/Flutter/Flutter.framework
-**/ios/Flutter/engine/Flutter.framework
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/flutter_export_environment.sh
-**/ios/Flutter/App.framework
-**/ios/Flutter/Flutter.framework
-**/ios/Flutter/engine/Flutter.framework
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/flutter_export_environment.sh
-**/ios/Pods/
-**/ios/Podfile.lock
-**/ios/Runner.xcodeproj/project.xcworkspace/
-**/ios/Runner.xcodeproj/xcuserdata/
-**/ios/Runner.xcworkspace/
-**/ios/Runner/GeneratedPluginRegistrant.h
-**/ios/Runner/GeneratedPluginRegistrant.m
-**/ios/Runner/Assets.xcassets/
-**/ios/Flutter/flutter_export_environment.sh
-
-# Packages
-packages
-
-# Miscellaneous
-.DS_Store
-*.log
-*.vscode/
+# Generated files
 .idea/
 *.iml
-*.hive
+*.ipr
+*.iws
+
+# User-specific files
+*.swp
+*.swo
+*.DS_Store
+*.vscode/
+*.history
+*.log
+
+# Android specific
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+android/*.iml
+android/captures/
+
+# iOS specific
+ios/.generated/
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode specific
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+
+# Swift Package Manager
+Packages
+.build/
+.xcodeproj/xcuserdata/
+.swiftpm/xcode/
+.swiftpm/configuration/
+.swiftpm/repositories/
+
+# CocoaPods
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+
+# Google Firebase Plugin
+ios/GoogleService-Info.plist
+android/app/google-services.json
+
+# Miscellaneous
+*.lock
+*.sqlite
+*.bak
+*.tmp
+*.orig
+
+
+# Dart specific
+*.dart_tool/
+*.packages
+.packages.lock
+
+# Web specific
+web/.dart_tool/
+web/packages/
+web/package_config.json
+web/flutter.js
+web/main.dart.js
+web/main.dart.js.map
